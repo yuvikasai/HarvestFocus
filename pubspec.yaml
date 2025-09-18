@@ -1,0 +1,22 @@
+name: harvest_focus
+description: A productivity app with Pomodoro, Calendar, and To-Do list
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  table_calendar: ^3.0.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/border.png
+    - assets/leaf.png
